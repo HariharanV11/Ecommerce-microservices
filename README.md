@@ -37,20 +37,9 @@ The backend is built using **Spring Boot** and exposes REST APIs consumed by the
 ### How to Run Backend
 
 1. Open `Ecommerce-Backend` in IntelliJ / Eclipse
-2. Configure MySQL credentials in `application.properties`
+2. Configure MySQL credentials in `application.properties` for each services
 3. Run the main Spring Boot application class
 4. Backend will start on the configured port (example: `http://localhost:8080`)
-
----
-
-## Frontend–Backend Connection
-
-- React frontend uses **Axios** for HTTP communication
-- Axios base URL points to backend APIs
-- REST APIs exchange data in JSON format
-
-Flow:
-Frontend → Axios → Spring Boot REST API → MySQL → Response → Frontend
 
 ---
 
@@ -88,28 +77,11 @@ Frontend → Axios → Spring Boot REST API → MySQL → Response → Frontend
 
 ---
 
-## Simplifications Made
-
-- Shipping module removed
-- Tax calculation removed
-- Search handled on frontend side
-
-These changes were made to keep the project simple and interview-friendly.
-
----
-
 ## Project Purpose
 
 - Demonstrate full-stack development skills
 - Show real React ↔ Spring Boot integration
 - Suitable for academic projects and interviews
-
----
-
-## Learn More
-
-- React Documentation: https://reactjs.org/
-- Spring Boot Documentation: https://spring.io/projects/spring-boot
 
 ---
 
